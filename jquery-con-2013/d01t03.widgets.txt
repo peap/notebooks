@@ -1,0 +1,28 @@
+Getting the Most out of jQuery Widgets
+- Richard Lindsey, The Advisory Board Company
+- http://bit.ly/jqwidgets
+
+What's a widget?
+* reusable 
+* think small
+* think modular
+* elements/compounds/cells/organisms
+
+Communicate through events, rather than direct communication
+* Keep components decoupled
+* Make them subscribe and respond; jQuery and jQuery UI have an
+event system
+* Bundle smaller modules into a parent module; parent can then subscribe to its
+children
+* Provide a public API
+* Direct references should only go downward
+ * "Parents should directly consume their children."
+
+Public functions should always have unit tests
+
+Only make components as large as they need to be
+Keep them as decoupled as possible
+Consume downwards, communicate upwards
+Keep everything as small as possible
+Test, test test!
+Ensure backward compatibility for your consumers.

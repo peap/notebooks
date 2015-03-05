@@ -1,0 +1,57 @@
+Keynote - The State of jQuery
+- Dave Methvin, President of jQuery Foundation
+
+jQuery Foundation Initiatives
+* support jQuery projects
+* support web developers
+* support web standards
+* advocate for developer needs
+* participate in standards process
+ * W3C
+ * ECMA 262 (JavaScript)
+
+jQuery Core Plan
+* 1.x still supports IE 6/7/8
+* 2.x supports modern browsers
+* both maintained by the team
+
+1.x/2.x APIs stay in sync
+* 1.9 January
+* 2.0 April
+* 1.10 June
+* 1.10.0 <---> 2.0.0
+* 1.11.0 <---> 2.1.0
+
+jQuery Migrate Plugin
+* identifies things your code is doing that jQuery 1.9+ doesn't support anymore
+* actually makes older code work
+* lets you use jQuery 1.9+ with code that hasn't been upgraded yet
+
+1.11/2.1
+* Uses AMD
+* Ability to make custom builds
+* JIT feature detection
+* Beta coming out within a month
+* Try it out!
+* Tries to lower overhead
+
+Layout
+* Browser layout recalculation/redrawing makes a big impact
+* layout: changes to the document that potential affect dimensions
+* forced layout: layout change that asks the browser about the new dimensions
+before the function returns, which causes the browser to drop everything and
+answer
+ * eg: asking for the width of an element you've just changed (offsetWidth
+ function takes a lot of time)
+* Infinite scroll: full-page forced layout on every scroll event (facebook...)
+ * using grid layouts can help because it allows you to calculate how
+ much content you need to fill, rather than making the browser do it
+* $(':hidden') vs. $('.hidden')
+ * :hidden if a jQuery selector extension - can't use fast native DOM selector code
+ * using this selector is to ask for all hidden elements on the page: forced re-flow
+ * .hidden, on the other hand, is a native class selection; fast, no forced layout
+* Can also avoid forced layout by throttling high frequency events like
+mousemove or scroll; handle with requestAnimationFrame
+ * http://www.html5rocks.com/en/tutorials/speed/rendering/
+
+Know your tools!

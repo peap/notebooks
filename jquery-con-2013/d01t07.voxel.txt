@@ -1,0 +1,18 @@
+Creating 3D worlds with voxel.js and jQuery
+- Vlad Filippov
+- @vladikoff
+
+Rendering voxel worlds in web browsers
+github.com/voxel
+
+A single "voxel" is a value in 3D space
+
+Can be used to import Minecraft maps to check them out in the browser
+
+vf.io/voxel
+archiveroom.net
+voxelbuilder.com
+creator.voxeljs.com
+
+Use browswerify to run node apps in the browser (I think)
+

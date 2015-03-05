@@ -1,0 +1,11 @@
+Adaptive Images for Responsive Web Design
+- Christopher Schmitt
+
+There are lots of solutions for responsive image size...
+
+Media queries and CSS was what his talk was about.
+
+Workarounds and tricks
+* background: 100%
+* use SVG images if you can (IE 9+)
+* font-based solutions (unicode; not great for accessibility)

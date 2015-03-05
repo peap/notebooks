@@ -1,0 +1,29 @@
+Digging, Debugging
+- Brian Arnold
+
+Know the language...read JavaScript: The Definitive Guide, not just The Good Parts
+
+The Chrome console/inspector is awesome
+
+inspect() is a built-in function to inspect an element
+
+$0 refers to the last-inspected element, $1 the previous, $2, etc.
+
+$_ is assigned to the result of the last evaluation expression
+
+dir() is a built-in function to see what's in an object, including DOM nodes
+
+Setting breakpoints and conditional breakpoints are handy
+* insert 'debugger;' into your code to start up the debugger
+* there are also DOM breakpoints and XHR breakpoints
+
+Sources tab in Chrome dev tools is really handy, too
+
+Profile tab, flame chart...way cool
+
+http://discover-devtools.codeschool.com/
+
+Private Mode is a great tool for debugging
+* no cache, no cookies, etc.
+
+Use a style guide...make it consistent!

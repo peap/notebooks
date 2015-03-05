@@ -1,0 +1,39 @@
+Talk to Me: Making websites accessible
+- Joern Zaefferer
+
+About 300 million people worldwide have low-vision
+
+How to convince your boss:
+* Accessibility is important, like UX or security
+* Boost your user experience
+  * accessible websites are more usable for everyone
+* support power users
+  * keyboard access for everyone
+* SEO improvements
+  * meaningful markup for screen-readers and search engines
+* more customers
+  * online shopping is much more useful for home-bound users
+* it's the law
+  * USA: Section 508
+  * Canada: Common Look and Feel Standards 2.0
+
+What to do...
+* CAPTCHAs need audio equivalents
+* use W3C Validator
+* Keyboard testing; make sure tabs work and you can use all links and form elements
+
+Testing Screenreaders
+* NVDA: Firefox, Windows
+* VoiceOver: Mac
+* Jaws: Windows-only, biggest market share, 14-minute demo (put it in a VM and
+pause VM)
+
+Virtual Cursor: a speaking DOM tree
+
+Headers, links, forms, and landmarks (role attribute) are like the GOTO of
+screenreaders
+
+Unexpected screen changes are among the biggest complaints, along with flash
+and CAPTCHAs. Use aria-live="polite" and aria-atomic="true".
+
+WAI-ARIA

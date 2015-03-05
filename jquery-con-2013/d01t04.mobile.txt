@@ -1,0 +1,44 @@
+Using jQuery Mobile to Build Device-Agnostic Pages
+- Asta Gindulyte
+
+We need to re-do our website...
+What has changed over the past 5 years?
+...we have many web-capable devices.
+Need to make website work on all devices.
+
+What's a non-device-agnostic website? A site that works better on some devices
+than others.
+Device-agnostic website: works well on all devices
+
+Challenges:
+* screen size
+  * page width should adjust
+  * text should be large enough to read
+* touch (no correlation with screen size anymore)
+  * buttons/ links should be big enough
+  * swipe and other gestures should be enabled
+* content organization
+  * show/hide based on screen size might penalize small screen users
+  * having very different layouts might confuse users
+* testing
+  * no free lunch - need to test on all devices
+  * emulators like screenfly (quirktools.com/screenfly) can help, though
+
+Why jQuery Mobile?
+* "write less, do more" (especially, less CSS)
+* cross-browser, cross-device
+* touch-friendly
+* responsive since version 1.3
+* layout and themeing engine
+* AJAX page navigation
+* great docs!
+
+Example sites:
+* pubchem.ncbi.nlm.nih.gov/logo/
+* testpubchem.ncbi.nlm.nih.gov/compound/
+
+jQuery mobile has a collapsible widget that can be made into a tree display
+(timers...)
+
+If you're making an app-like website, jQuery Mobile might be a better choice
+than Bootstrap

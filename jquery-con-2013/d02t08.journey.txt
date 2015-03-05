@@ -1,0 +1,4 @@
+Journey to the Center of jQuery
+- Anne Gaëlle Colom, documentation lead for jQuery Mobile
+
+...story of how she got involved in jQuery Mobile...

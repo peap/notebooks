@@ -1,0 +1,36 @@
+Stop procrastinating, start $.Deferring!
+- Julian Aubourg, Creative-Area, jQuery Core, W3C
+- https://gist.github.com/jaubourg/6525351
+
+Promise
+* a means to observe a one-shot task
+  * an AJAX request
+  * an upload
+  * an animation
+  * solving an equation
+* two possible outcomes
+  * positive: true/success/resolution
+  * negative: false/error/rejection
+  * (can notify progress along the way)
+* a promise is an interface; interface is used to determine its state
+  * state(): pending, resolved, rejected
+  * done()
+  * fail()
+  * always()
+  * progress()
+  * then(), aka pipe()
+  * promise(), returns itself...
+
+The object you get after making an AJAX request has a promise interface
+
+    var jqXHR = $.ajax( options );
+    jqXHR.done(...);
+
+You can add callbacks at any time.
+If you add a callback after a task is finished, it occurs immediately.
+
+then()
+
+    var request = $.ajax( function(){ 'success'; }, function(){ 'failure'});
+
+the promise is kind of an async boolean

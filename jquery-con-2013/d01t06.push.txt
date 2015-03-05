@@ -1,0 +1,27 @@
+Simply Pushing the Web Forward
+- Kris Borchers, RedHat
+- http://pushtalk.krisborchers.com/
+
+Push notifications for the web
+
+Agenda
+* Messaging
+* Push API and SimplePush (Mozilla)
+* AeroGear
+* Code
+* Questions
+
+Lots of existing frameworks for the various mobile platforms
+
+SimplePush
+* subscribe to an endpoint
+* version numbers are send to registered endpoints
+* client checks version number and updates if out of date
+
+"Standard" Push API in development is now very similar to SimplePush
+
+AeroGear
+* websockets-based (simplepush server)
+* sock.js: XHR-streaming if browser doesn't support websockets (native android
+browser, for example)
+* unifiedpush server

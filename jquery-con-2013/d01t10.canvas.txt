@@ -1,0 +1,39 @@
+Kiss my Canvas: Making and Facilitating Art with Code
+- Jenn Schiffer, senior front-end web dev at the NBA
+
+CSS Arts and Crafts
+* shapes
+* patterns
+* animations
+
+JavaScript
+* animations
+* events
+
+HTML5 <canvas>
+* new element in HTML5
+* use it to draw 2D and 3D graphics using JS
+* widely supported by modern browsers (IE 9+)
+* in-browser art creation
+* save canvas to file
+* easy and fun to implement
+
+<!-- don't use CSS for width and height -->
+<canvas id="cancan" width="400" height="300">
+  You don't support <canvas> if you see this...
+</canvas>
+
+Have to get the rendering context, then draw on it.
+
+var canvas = document.getElementById('cancan');
+var context = canvas.getContext('2d');
+--- or ---
+var $canvas = $('#cancan');
+var context = $canvas[0].getConext('2d');
+
+$canvas.css({
+    'background-color': '#fff',
+    'border-color': '#000',
+});
+
+then you draw using context methods...

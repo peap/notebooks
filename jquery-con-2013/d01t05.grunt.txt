@@ -1,0 +1,33 @@
+Grunt automates all the things...what's next?
+- Aaron Stacy
+http://aaronstacy.com/shipit
+https://github.com/aaronj1335/shipit
+
+Grunt: http://gruntjs.com/
+* runs on nodejs
+
+Continuous Integration
+* things you do when you release, except all the time, on every commit
+
+Example of setting up CI in an existing project using Travis-CI: https://travis-ci.org/
+* Travis-CI has good github integration
+* $0/month for open source projects
+* $130/month for private repos
+
+Things we want to accomplish:
+* make `grunt test` work
+  * PhantomJS: headless browser
+  * .travis.yml
+    * language: node_js
+    * node_js: ["0.10"]
+    * before_script: npm install -g grunt
+* ensure we get emails when builds fail (setting in travis-gi github plugin)
+* deploy upon successful commit
+  * make `grunt deploy` work
+    * heroku
+    * nodejitsu
+    * openshift
+    * deploying your app with the above three is as simple as a `git push`
+  * after_script: grunt deploy
+  * get a github API token
+  * secure variables for travis

@@ -1,0 +1,15 @@
+AMD-ifying jQuery Source
+- Timmy Willison
+- http://timmywil.github.io/jquery-amdify/
+
+AMD
+* Asychronous Module Definition
+* Workable javascript module system
+
+Why AMD?
+* http://requirejs.org/docs/whyamd.html
+* jQuery is made for the browser
+* jQuery Mobile already uses it
+* AMD is made for the browser
+
+

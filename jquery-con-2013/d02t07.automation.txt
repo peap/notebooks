@@ -1,0 +1,5 @@
+jQuery + Phantom.js + Node.js = Testing and Automation Aweseomsauce
+- Travis Tidwell
+- http://travistidwell.com/presentations/jquery-node-phantom/
+
+just read the slideshow again

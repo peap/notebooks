@@ -1,0 +1,24 @@
+jQuery Mobile: Optimizing Performance
+- Alex Schmitz
+
+Why do we need to optimize performance?
+* speed of cell connections
+* hardware
+
+Simplify your pages
+* reduce number of widgets
+* reduce size
+* limit size of lists/tables
+* paginate
+
+Reduce download time and HTTP requests
+* combine scripts
+* minify
+
+...too fast for notes
+
+Use custom builds of jQuery-mobile
+* reduce file size
+* reduce library initialization size
+* reduce page initialization time
+* allows you to remove parts of the library you don't need

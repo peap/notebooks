@@ -1,0 +1,33 @@
+AngularJS and the Computer Science of JavaScript
+- Burke Holland, Kendo UI
+- https://presentboldly.com/burkeholland/angularjs-and-the-computer-science-of-javascript
+
+AngularJS requires a different way of thinking
+
+Imperative vs. Declarative
+
+imperative initialization
+* select HTML element and call a method on it
+
+declarative initialization
+* use arbitrary data-* attributes to specify configuration
+* then, initialize the html
+
+configuration is rarely static
+* ViewModels: good concept, bad reputation
+
+AngularJS provides declarative initialization and two-way binding
+
+A view model is created by Angular if you don't declare one
+
+Directives
+* ng-* are directives
+* ng-app, ng-select, ng-repeat
+* you can make your own
+
+$scope
+* the "ViewModel", for lack of a better name
+
+Controller
+* context in which you work with the scope
+* can't access the DOM from the controller; have to write your own directive

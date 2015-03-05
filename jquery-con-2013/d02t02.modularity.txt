@@ -1,0 +1,57 @@
+In Search of Front-End Modularity
+- Juan Pablo Buritica
+
+Increasing complexity in our applications
+As our applications evolve, complexity will increase
+
+Complexity is present at all levels
+* functions
+* libraries
+* frameworks
+* architectures
+
+Our mission: to build complex systems without knowing their final state
+
+Be pragmatic: surely someone else has done the work before us
+
+How does nature do it?
+* composition of smaller modules into systems
+* think red blood cells
+
+Functional elements
+* reusable
+* isolated
+* self-contained
+* promote separation of concerns
+* allow composition
+* standardized interfaces
+* communication (optional)
+
+Web components
+* templates
+  * <template></template>; not executed until...placed?
+* decorators
+  * no spec yet; meant to enhance/extend presentation of an existing element
+* custom elements
+  * <element extends="" name="">
+      <template></template>
+      <script></script>
+    </element>
+  * allow author definition of DOM elements
+  * access to prototype via nested <script>
+  * element life cycle callbacks
+  * available via markup and scripts
+  * extensible via extends attribute
+* shadow DOM
+  * provides encapsulation and enables composition
+  * the meat of web components
+  * complex concepts
+* HTML imports
+  * <link rel="import" src="">
+* polyfills available
+  * (subject to browser availability)
+  * polymer.js (Google)
+  * brick + x-tag (Mozilla)
+
+The search of ideal modularity will end when our applications stop increasing
+in complexity...so, never.

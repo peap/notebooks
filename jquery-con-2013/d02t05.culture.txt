@@ -1,0 +1,48 @@
+The building blocks of a developer-inclusive culture
+- Monika Piotrowicz, Shopify (who acquired JetCooper)
+
+Process
+* a process exists to support creativity, not resist it
+
+Good conference, but how do you get to apply the cool new things?
+
+Waterfall approach might prevent implementation of new ideas
+* we're not part of the design/discovery phase, generally
+* we become short order cooks
+* we need a way to share ideas
+* we want to work with designers (don't look at them as problem creators)
+
+What JetCooper did
+
+Devs inside the project
+* stopped staggering (waterfall): design and development at the same time
+* start sitting with the designers to see what they're thinking about and
+to discuss the project
+* Research & Prototype
+  * the chance to actually learn about and implement the new things that interest
+  you
+  * Your sandbox/prototyping
+    * the freedom to focus on one problem at a time, testing early to solve it
+    faster
+  * share and iterate
+    * design informs development; development informs design
+
+Devs outside the project
+* demo days: cross-studio learning
+* developer meetings and lightning talks
+* hack days and recess
+  * couple days, company wide
+  * stop working on normal stuff, hack around
+
+Lessons learned
+* it's a lot to implement, but a strong developer culture can bring a lot of
+benefits
+* what they've gained
+  * they make more informed decisions
+  * time is reduced and quality increases
+  * happy developers
+
+What do to?
+* talk to your designers
+* become an advocate for a stronger culture
+* take the first step - go to early project meetings

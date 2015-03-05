@@ -1,0 +1,77 @@
+How to How-to (or, tips for effectively education new developers)
+- Dan Gribbin, Brand Networks
+
+At one time, you once knew nothing about your job...don't forget!
+
+Things are always changing
+
+Teaching can be hard. Why?
+* we generally have a terrible memory about the learning process
+* ...so, we often take our knowledge for granted
+
+Why be a teacher?
+* enhance your leadership skills
+* have a positive influence on developers careers
+* your dev team will thank you
+
+Teaching Effectively
+* the way you teach makes a difference
+  * a few influences on learning
+    * learning style preference
+    * personalities
+    * co-workers
+    * goals
+    * influences
+    
+On learning style
+* recognize that people learn best in different ways
+* two hemispheres in every brain
+  * right: creative processing
+  * left: logical processing
+* analytical/logical (left brain dominant)
+  * bottom up
+  * effective learning begins with understanding of the most basic elements of the subject
+  * problem solving involves a linear progression of thoughts
+* creative/visual (right brain dominant)
+  * top down / holistic
+  * show where you intend to end up
+  * progressively fine-grained examination of the topic
+  * teach with examples and
+* getting a sense of learning preference
+  * ask questions
+    * how do you learn best?
+    * where would you start learning a new technology?
+
+Be inspirational
+* encourage curiosity
+* set an example of inspiration
+* have empathy
+* encourage an optimistic attitude
+* show respect
+* the best learning happens when solving real problems
+  * get new devs in the trenches, even if they're not ready
+
+When to teach new devs?
+* pair programming
+* code reviews
+* stupid question sessions
+
+What should I prioritize when teaching new devs?
+* critical thinking
+  * teach understanding of concepts
+    * What is HTML for? What is it without CSS? How do they integrate
+* separating concerns
+  * HTML | CSS | JS
+  * don't mix structure, style, and functionality
+  * applying critical thinking makes this more natural
+* resourcefulness / small victories
+  * get new devs to use community-developed tools
+* code re-usability
+  * encourage reusable CSS classes and abstracted JS functionality
+* debugging
+* tools
+
+New devs are eager to learn and build. More experienced devs can either be
+intimidating or inspiring...be inspiring.
+
+A new dev's best weapon is her own curiosity.
