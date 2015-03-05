@@ -1,0 +1,38 @@
+Advanced Android
+- Kenneth Kousen
+- Friday, 6/28/13, 3:15-4:45
+
+The activity life-cycle:
+-- http://developer.android.com/reference/android/app/Activity.html
+-- more methods than states
+
+Good REST template library:
+-- spring android core + spring android rest template
+-- add .jar files to libs
+
+Can't run a long-running task in the GUI thread
+-- you're supposed to do it asynchronously (AsyncTask)
+
+Adapter
+--  like a cell model or table model from Swing
+-- maps data structure to widget
+
+Persistence
+-- file access to device through java.io
+-- input files for the app go in res/raw
+----- InputStream is = getResources().openRawResources(R.raw.resfile)
+-- XML in res/xml; XmlPullParser is built in to Android
+-- writing preferences - you need to commit changes
+
+GCM: Google Cloud Messaging system
+-- push message to all deployed apps
+-- added Google service
+
+RDBMS
+-- annoying API, but there is a workaround
+-- no jdbc
+-- don't want to do much database access, though: put most data on a server
+-- android.database
+-- SQLite is built-in (actual SQLite)
+-- ORMLite is available
+-- have to create a DBAdapter to manage db creation/recreation

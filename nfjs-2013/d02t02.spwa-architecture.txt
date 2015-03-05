@@ -1,0 +1,86 @@
+Single Page Web Apps Architecture
+- Pratik Patel
+- Saturday, 6/29/13, 11:00-12:30
+
+Introductory talk about SPAs
+-- Client-side JavaScript
+-- Single Page Apps, or SOFEA (Service Oriented Front End Architecture)
+-- Architecture
+
+Trend is moving processing to the client, lighter-weight solutions
+
+Difference
+-- SPAs do not send a new HTML web page for each request
+-- Code/Logic in browser handles user interaction
+-- Communicates with server for data
+-- You keep the state in the browser, rather than starting over each time
+
+Lots of SPA JS frameworks
+-- AngularJS, Backbone.js, Cappuccino, Emberjs, ExtJS, Underscore, etc...
+
+Dangers
+-- JS provides little in the way of utility or abstraction
+-- even small projects can become a mess
+-- end up writing a lot of boilerplate code
+-- re-usability is an issue
+
+Start small
+-- Underscore (like Guava in Java); provides useful utilities
+-- Sugar
+-- DateJS / Moment.js
+-- jQuery has many under-used utilities like .on
+
+Client Side
+-- client side MVC
+-- moves processing from server to client
+-- server is just a REST-ful endpoint (w/some business logic on the server)
+-- only UI business logic on the client
+-- Why?
+----- less/no HTML generation on the server
+----- true decoupling of UI and data
+
+Problems with JavaScript
+-- missing many mid- and high-level structures
+-- example: file hierarchies; use convention of name-spaces
+
+Single Page App architecture is not for everything
+-- http://mir.aculo.us/2013/02/26/client-side-mvc-is-not-a-silver-bullet/
+-- not always appropriate
+-- lock-in to framework
+-- SEO is difficult
+-- can be slower
+
+PJAX
+-- push state + AJAX
+-- JavaScript to update a part of the page/DOM
+
+Widget-based architectures
+-- all JS
+-- UI widgets are provided by a framework
+-- example: Ember.js (used a lot by Ruby on Rails devs), Enyo, Sencha, Kendo UI
+(speaker's framework of choice)
+
+Model-backed view
+-- data-model centric
+-- example: backbone
+
+Markup-drive
+-- example: Angular 
+-- write markup, access model directly in markup
+
+Model layer
+-- model is a data container
+-- event emitter on data change
+-- data store/cache kept in app, flushed programmatically down to the server
+
+*** a key difference between client-side and server-side MVCs is that things done
+using events, rather than direct method invocation
+
+Backend
+-- REST + JSON
+-- JSON is essentially JS code, so it's the fastest thing to parse
+
+Controller
+-- SPA frameworks don't have traditional controllers
+-- it renders templates, syncs views and models, and works with DOM events
+-- So, remember we're event-driven. Logic is in the view and in the model

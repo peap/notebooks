@@ -1,0 +1,25 @@
+Mobile Design Workshop (continued)
+- Nathaniel Schutta
+- Sunday, 6/30/13, 11:00-12:30
+
+Speaking of pixels...
+
+* What are the top 3 tasks?
+Look at the featuritis curve (there's a peak number of features to make user's happy)
+What is the most important thing?
+Helps your desktop users, too. Mobile first!
+
+Apps change on orientation switches
+
+We are rapidly approaching the stage where a touch interface is assumed for screens.
+
+Inadvertent presses will happen
+
+Fitt's law: distance and size plays into long it takes to acquire a target
+-- small targets are hard to hit
+-- application elements need room to breath
+
+There are no manuals
+
+Prototyping on Paper: popapp.in
+-- take a picture of your paper prototype and then interact with it on your phone

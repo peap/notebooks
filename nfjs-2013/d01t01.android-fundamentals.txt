@@ -1,0 +1,32 @@
+Android Fundamentals
+- Kenneth Kousen
+- Friday, 6/28/13, 1:15-2:45
+
+Main Android site: developer.android.com
+Android Dashboard: developer.android.com/about/dashboards/index.html
+
+Platform: new apps can just target Android 4+ (API v. 15+)
+Screen size: just need to develop for ~4.5" screens and ~7" screens and you'll be fine
+
+Paradigm: layout with components, event-driven
+-- screen with all components ("widgets") = "activity"
+-- clicking is not an event, but rather an "intent"
+
+One-time $25 fee to add all your apps to the Google Play Store
+
+Android isn't _really_ Java; it feels closest to Java 6
+Android Studio is version 0.1.5...and it feels like it.
+-- uses Gradle build
+-- will likely become the standard, when it's ready to go
+Google API adds some features on top of Android API
+
+You have to run on either a connected device or an emulator
+-- emulator takes a long time to start up; most people leave it open all day
+
+Layouts are written in XML; they get compiled into Java classes.
+Devs usually stick with built-in components.
+Android apps all have the same basic code layout
+Always want to call super on override methods
+Every app needs one MainActivity
+All activities need to be in the manifest to be recognized by the OS
+Changing orientation kills the activity and instantiates a new one

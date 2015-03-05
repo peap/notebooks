@@ -1,0 +1,47 @@
+Web Application Design from a Developer's Perspective
+- Raju Gandhi
+- Saturday, 6/29/13, 1:30-3:00
+
+Talk intended for internal Enterprise apps, not public-facing stuff
+
+What are the big pain points that make Enterprise Web Apps suck?
+-- Condescending (forms with lots of errors, for example)
+-- Intrusive (like Windows rebooting itself)
+-- Unfocused
+
+If your "customers" could trade up, they probably would.
+
+Help your users feel empowered, smart, and productive.
+
+Web apps should be intuitive, forgiving, and frictionless.
+
+Talk to your users!
+-- What do you do?
+-- How do you do it?
+-- What's missing?
+-- Sit down with client and business analyst, shadow, etc.
+-- Just take a paper and pen.
+-- Personas provide a human face to the project to establish empathy
+
+Then ignore them
+-- users get needy
+-- constant firefighting mode
+-- clutter, complications, and eventually more bugs
+-- Need to establish a line before it gets to personalized to the users and
+becomes too complex
+
+Don't break the mental model of your users (saving with tabs, trash can, etc.)
+
+Focus
+-- one app = one intent
+-- one page = one task
+
+Tips and Tricks
+-- Just use CSS3
+-- Use reset.css
+-- SASS (Syntactically Awesome Style Sheets) - gives you variables and math
+-- Colors: don't pick them yourself
+
+Be playful (fun messages, etc.)
+Be insightful
+Be helpful

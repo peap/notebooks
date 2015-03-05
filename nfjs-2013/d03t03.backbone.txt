@@ -1,0 +1,10 @@
+Backbone Workshop
+- Nathaniel Schutta
+- Sunday, 6/30/13, 2:15-3:45
+
+JavaScript is a first-class citizen now, whether we like it or not
+
+Backbone
+-- very lightweight, minimalistic
+-- not opinionated (vs. Ember)
+-- influenced by Ruby on Rails

@@ -1,0 +1,32 @@
+Building Native iOS and Android Apps with JavaScript
+- Pratik Patel
+- Saturday, 6/29/13, 9:00-10:30
+
+Titanium SDK
+-- develop in JavaScript with proprietary framework (JS only; no HTML or CSS)
+-- bridges your code to target platform (doesn't generate native code)
+-- creates native widgets
+-- targets: iOS, Androis, Mobile Web (perpetual Beta), Windows, Blackberry
+-- Titanium Studio (Eclipse w/plugins) is available, but not required
+
+Can do platform-specific stuff, like action bar for Android, split-pane view for iOS
+-- Write once, then adapt to iOS and Android
+
+Titanium API supports almost all native features
+
+JavaScript is still single-threaded; very much like web JS (just no DOM)
+Heavily event-based
+
+Trip Lingo analysis of their Titanium app
+-- 100% of non-UI code is reusable (20% of code-base)
+-- 50% of UI code is reusable (80% of code-base)
+-- UI code can become more reusable with experience and patterns
+
+Still worth knowing the native toolchain for the platform you're targeting, at
+least for debugging ability
+
+Titanium is based on modules
+-- Ti has a JS runtime that loads modules (networking, database, filesystem, etc.)
+-- each module represents an API
+
+Use TiShadow to send code live to emulators

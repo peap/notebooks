@@ -1,0 +1,39 @@
+Mobile Design Workshop
+- Nathaniel Schutta
+- Sunday, 6/30/13, 9:00-10:30
+
+MOBILE IS A BIG DEAL
+
+Use personas to design your software
+-- Humanize your users!
+-- We respond to faces. Give your persona a face
+-- Make up a person with a face and many specific details
+-- Give him/her an (alliterative) name - Betty to the Busy Mom
+
+Use ethnography to study your users in their environment
+
+Consider mindsets in the mobile space
+-- what do people want/expect with your app
+
+What is absolutely, ABSOLUTELY required?
+-- pixels are very precious
+-- cut more than you think you need to
+
+We don't have perfect cell/WiFi coverage yet
+-- sprites, minified JS, HTML5, canvases instead of images, lazy load, app cache, etc.
+-- makes desktop experience better, too
+
+Users are distracted; usage tends to be choppy. Sprints, not marathons.
+
+Activity zones
+-- where you can reach with one thumb (but the left or the right?)
+-- toolbars tend to be located at the bottom of apps now
+----- easier to reach
+----- doesn't block the content
+
+Try to interact with your app while moving your hand in circles (blurry vision)
+
+Gestures are often ignored; they are not easily discoverable
+
+Many interface elements are hidden
+

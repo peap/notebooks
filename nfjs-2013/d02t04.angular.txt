@@ -1,0 +1,19 @@
+Rich Web Apps with Angular
+- Raju Gandhi
+- Saturday, 6/29/13, 3:15-4:45
+
+Going to build a to-do app in this talk
+
+Angular is an MV* framework
+-- C? controller
+-- VM? view model
+
+Primary role of a controller is to introduce scope
+
+Dependency injection: ask the framework for what you need
+-- $scope: get a new scope object from Angular
+-- $ is reserved for Angular dependencies
+
+If you need to share things between controllers, use dependency injection
+
+Login and session management are talks in themselves
